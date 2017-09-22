@@ -3,9 +3,9 @@ environments:
 - name: production
 service:
   name: vagrant
-  port: 8080
+  port: 80
   pathPatterns:
-  - /
+  - /*
   pipeline:
     source:
       provider: GitHub

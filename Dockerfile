@@ -17,6 +17,6 @@ COPY ./apache/index.html /var/www/html/index.html
 # Copy the supervisor conf
 COPY ./supervisord/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["/usr/bin/supervisord"]
