@@ -5,7 +5,7 @@ service:
   name: vagrant
   port: 8080
   pathPatterns:
-  - /hello
+  - /
   pipeline:
     source:
       provider: GitHub
