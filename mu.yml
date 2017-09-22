@@ -1,0 +1,12 @@
+environments:
+- name: acceptance
+- name: production
+service:
+  name: vagrant
+  port: 8080
+  pathPatterns:
+  - /hello
+  pipeline:
+    source:
+      provider: GitHub
+      repo: jedugas/mutorial
